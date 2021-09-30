@@ -141,15 +141,15 @@
                      <div class="row">
                     <div class="col-4" style="margin-top: -3%">
                         <label>Date Found:</label>
-                    <input type="date" class="form-control" placeholder=".col-5">
+                    <input type="date" name="date_found" class="form-control" placeholder=".col-5">
                   </div>
                    <div class="col-5">
                    </div>
                   <div class="col-3" style="margin-top: -3%">
                     <label>Time Found:</label>
-                    <input type="time" class="form-control" placeholder=".col-5">
+                    <input type="time" name="time_found" class="form-control" placeholder=".col-5">
                   </div>
-                    <div class="col-12" style="margin-top: 6%">
+                    <!-- <div class="col-12" style="margin-top: 6%"> -->
                       <!-- <div class="form-group">
                         <select class="form-control">
                           <option disabled="" selected="">Select Post Category</option>
@@ -157,29 +157,29 @@
                           <option>option 3</option>
                         </select>
                       </div> -->
-                    </div>
-                  <div class="col-12" >
-                    <input type="text" class="form-control" placeholder="Item Type ...">
+                    <!-- </div> -->
+                  <!-- <div class="col-12" >
+                    <input type="text" class="form-control" item_ placeholder="Item Type ...">
+                  </div> -->
+                  <div class="col-12" style="margin-top: 3%">
+                    <textarea class="form-control" rows="2" name="book_details" placeholder="Book Description and Details ..."></textarea>
                   </div>
                   <div class="col-12" style="margin-top: 3%">
-                    <textarea class="form-control" rows="2" placeholder="Item Description ..."></textarea>
+                  <input type="file" class="form-control" name="book_image" placeholder="Location Found ...">
                   </div>
-                  
                   <div class="col-12" style="margin-top: 3%">
-                    <input type="text" class="form-control" placeholder="Location Found ...">
+                    <input type="text" class="form-control" name="location_found" placeholder="Location Found ...">
                   </div>
-                   <div class="col-12" style="margin-top: 3%">
-                      <div class="form-group" >
-                        <select class="form-control">
-                          <option disabled="" selected="">Lost or Found</option>
-                          <option>Lost</option>
-                          <option>Found</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-12">
+                  <div class="col-12" style="margin-top: 3%">
+                    <input type="text" class="form-control" name="contact" placeholder="Phone Number ...">
+                  </div>
+                  <div class="col-12" style="margin-top: 3%">
+                    <input type="text" class="form-control" name="state" placeholder="Lost or Found ...">
+                  </div>
+                   
+                    <!-- <div class="col-12">
                     <textarea class="form-control" rows="2" placeholder="Remarks ..."></textarea>
-                  </div>
+                  </div> -->
                 </div>
                     
                       <div class="form-group row">
