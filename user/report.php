@@ -129,7 +129,7 @@
           <div class="col-md-8" style="margin-left: 18%">
             <div class="card">
               <div class="card-header p-2" align="center">
-              <h4>FORM</h4>
+              <h4><b>ITEM DETAILS</b></h4>
               </div><!-- /.card-header -->
               <div class="card-body">
                 <div class="tab-content">
@@ -140,38 +140,38 @@
                       <form class="form-horizontal">
                      <div class="row">
                     <div class="col-4" style="margin-top: -3%">
-                        <label>Date:</label>
+                        <label>Date Found:</label>
                     <input type="date" class="form-control" placeholder=".col-5">
                   </div>
                    <div class="col-5">
                    </div>
                   <div class="col-3" style="margin-top: -3%">
-                    <label>Time:</label>
+                    <label>Time Found:</label>
                     <input type="time" class="form-control" placeholder=".col-5">
                   </div>
-                      <div class="col-12" style="margin-top: 6%">
-                      <div class="form-group">
+                    <div class="col-12" style="margin-top: 6%">
+                      <!-- <div class="form-group">
                         <select class="form-control">
                           <option disabled="" selected="">Select Post Category</option>
                           <option>option 2</option>
                           <option>option 3</option>
                         </select>
-                      </div>
+                      </div> -->
                     </div>
                   <div class="col-12" >
-                    <input type="text" class="form-control" placeholder="Title..">
+                    <input type="text" class="form-control" placeholder="Item Type ...">
                   </div>
                   <div class="col-12" style="margin-top: 3%">
-                    <textarea class="form-control" rows="2" placeholder="Description ..."></textarea>
+                    <textarea class="form-control" rows="2" placeholder="Item Description ..."></textarea>
                   </div>
                   
                   <div class="col-12" style="margin-top: 3%">
-                    <input type="text" class="form-control" placeholder="Location..">
+                    <input type="text" class="form-control" placeholder="Location Found ...">
                   </div>
                    <div class="col-12" style="margin-top: 3%">
                       <div class="form-group" >
                         <select class="form-control">
-                          <option disabled="" selected="">Post Type</option>
+                          <option disabled="" selected="">Lost or Found</option>
                           <option>Lost</option>
                           <option>Found</option>
                         </select>
